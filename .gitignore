@@ -1,1 +1,19 @@
-.env
+# Python (FastAPI backend)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+env/
+venv/
+.env         # 👈 This ensures your backend .env is ignored
+
+# Node (if you're using React frontend)
+node_modules/
+build/
+dist/
+
+# OS and editor junk
+.DS_Store
+*.log
+.vscode/
+.idea/
